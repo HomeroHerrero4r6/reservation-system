@@ -34,7 +34,7 @@ Para Crear y levantar el contenedor
 
 Aqui ya deberias poder ingresar a la url del host y visualizar la app 
 
-Crear migraciones
+# Crear migraciones
 
 ### docker exec api_drf_curriculum_web_1 bash -c "python manage.py makemigrations" 
 
