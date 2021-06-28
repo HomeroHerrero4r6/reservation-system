@@ -23,14 +23,19 @@ PATCH: A Reserva y a Room ya que modificamos parcialmente sus datos en caso de l
 POST: En Caso de que deseemos modificar posteriormente un registro
 
 #Para Correr La App
+
 En la carpeta root 
 
 Para Crear y levantar el contenedor
+
 ###docker-compose build 
 
 ###docker-compose up -d
+
 Aqui ya deberias poder ingresar a la url del host y visualizar la app 
 
-Crear migraciones 
+Crear migraciones
+
 ###docker exec api_drf_curriculum_web_1 bash -c "python manage.py makemigrations" 
+
 ###docker exec api_drf_curriculum_web_1 bash -c "python manage.py migrate" 
